@@ -192,7 +192,7 @@ const Home = () => {
     const Card = ({ card }) => {
       const showWaiting = !card.latestResult;
       return (
-        <section className="circlebox2" style={{ marginBottom: 8 }}>
+        <section className="circlebox2">
           <div>
             <div className="sattaname">
               <p style={{ margin: 0 }}>{card.name || "—"}</p>
