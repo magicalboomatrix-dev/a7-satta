@@ -28,7 +28,10 @@ export default function BottomAdsSection() {
   if (ads.length === 0) return null; // Hide section if no ads
 
   return (
-    <section className="ads-container" style={{ marginTop: 5, marginBottom: 5 }}>
+    <section
+      className="ads-container"
+      style={{ marginTop: 5, marginBottom: 5 }}
+    >
       {ads.map((ad, index) => (
         <div key={ad._id || index} className="column-ad">
           <div
@@ -47,6 +50,13 @@ export default function BottomAdsSection() {
             }}
           >
             <div
+              style={{
+                width: "100%",
+                overflowWrap: "break-word",
+                wordWrap: "break-word",
+                wordBreak: "break-word",
+                overflowX: "hidden",
+              }}
               dangerouslySetInnerHTML={{ __html: ad.content }}
             />
           </div>

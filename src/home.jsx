@@ -214,8 +214,8 @@ const Home = () => {
                   )}
                 </span>
               </p>
-              <p style={{ margin: 0, fontSize: 12, marginTop: 6 }}>
-                <small>{card.resultTime}</small>
+              <p style={{ margin: 0, fontSize: 14, marginTop: 5 ,fontWeight:"bold"}}>
+                <small style={{color:"white"}}>{card.resultTime}</small>
               </p>
             </div>
           </div>
