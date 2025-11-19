@@ -441,7 +441,7 @@ const Home = () => {
                     SattaKing game started in the middle of 20th century. It derived from a game called <b>“Matka,”</b> originating back in the times when people would place money on the opening/closing rate of cotton, which was then transmitted to the Bombay Cotton exchange from New York. The game was brought to India where it developed into various regional forms. Matka gained widespread popularity in cities such as approximately Mumbai and Delhi.{" "}
                   </p>
 				  
-				  </p>Matka gambling was the game at first, but when it was banned, people continued playing this kind of gambling which has evolved to ‘Satta’ King today. The game eventually spread to other cities and became associated with different markets (or “bazaars”), each with its own timing and winning numbers.</p>
+				  <p>Matka gambling was the game at first, but when it was banned, people continued playing this kind of gambling which has evolved to ‘Satta’ King today. The game eventually spread to other cities and became associated with different markets (or “bazaars”), each with its own timing and winning numbers.</p>
 				  
 				  <p>Satta King receives widespread participation despite legal limitations, with players anxiously anticipating the results of daily draws that reveal winners. The game has since migrated in many places to the internet, which explains why you get results or other way of playing quicker than before.</p>
 				  
