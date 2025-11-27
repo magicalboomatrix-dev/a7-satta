@@ -29,29 +29,42 @@ export default function TopAdsSection() {
 
   if (topAds.length === 0) return null; // Hide section if no top ads
 
-  return (
-    <section className="ads-container" style={{ marginTop: 5, marginBottom: 5 }}>
-      {topAds.map((ad, index) => (
-        <div key={ad._id || index} className="column-ad">
-          <div
-            className="card-body"
-            style={{
-              boxSizing: "border-box",
-              flex: "1 1 auto",
-              minHeight: 1,
-              padding: "1rem 0.5rem",
-              border: "dashed red",
-              background: "linear-gradient(#FFC107, #FFFFFF)",
-              borderRadius: 20,
-              fontWeight: "bold",
-              marginTop: 5,
-              marginBottom: 5,
-            }}
-          >
-            <div dangerouslySetInnerHTML={{ __html: ad.content }} />
-          </div>
+ return (
+  <section
+    className="ads-container"
+    style={{
+      marginTop: 5,
+      marginBottom: 5,
+      display: "flex",
+      flexDirection: "column", // keep items stacked vertically
+      alignItems: "center", // center horizontally
+    }}
+  >
+    {topAds.map((ad, index) => (
+      <div
+        key={ad._id || index}
+        className="column-ad"
+        style={{ width: "100%", maxWidth: 600 }} // optional: control max width
+      >
+        <div
+          className="card-body"
+          style={{
+            boxSizing: "border-box",
+            flex: "1 1 auto",
+            minHeight: 1,
+            padding: "1rem 0.5rem",
+            border: "dashed red",
+            background: "linear-gradient(#FFC107, #FFFFFF)",
+            borderRadius: 20,
+            fontWeight: "bold",
+            marginTop: 5,
+            marginBottom: 5,
+            textAlign: "center", // centers text/content inside
+          }}
+        >
+          <div dangerouslySetInnerHTML={{ __html: ad.content }} />
         </div>
-      ))}
-    </section>
-  );
-}
+      </div>
+    ))}
+  </section>
+);
