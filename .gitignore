@@ -1,0 +1,4 @@
+node_modules/
+* text=auto
+dist/
+.env    
