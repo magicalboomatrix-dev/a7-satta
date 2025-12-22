@@ -29,7 +29,7 @@ const stickyBodyStyle = {
 const GamePage = () => {
   const { gameSlug, year } = useParams();
   // Remove the trailing '-satta-result' if present, then convert dashes to spaces
-  const nameSlug = gameSlug ? gameSlug.replace(/-satta-results$/, "") : "";
+  const nameSlug = gameSlug ? gameSlug.replace(/-satta-king-result$/, "") : "";
   const decodedName = nameSlug.replace(/-/g, " ");
   // Use year param if present, otherwise default to current year
   const yearToUse = year ? Number(year) : new Date().getFullYear();
