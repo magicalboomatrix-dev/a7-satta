@@ -18,11 +18,7 @@ const Disclaimer = () => {
       <strong>1. Accuracy of Information</strong>
     </h2>
     <p>
-      The information provided on this website is for{" "}
-      <strong>general informational purposes only</strong>.<br /> While we make
-      every effort to ensure that the information is accurate and up to date,{" "}
-      <strong>we make no representations or warranties</strong>, express or
-      implied, regarding:
+      Disclaimer: A7 Satta is for informational and entertainment purposes only. We do not promote or support gambling in any form. Gambling may be illegal in your country or region. Please check and follow your local laws before accessing this site. A7 Satta is not responsible for any loss or damage arising from the use of this information.
     </p>
     <ul>
       <li>

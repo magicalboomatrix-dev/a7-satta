@@ -51,8 +51,7 @@ const Contact = () => {
         <div className="container">
           <div className="contact_form">
             <p>
-              To book in your free discovery session and audit, call 123 456 7890 or
-              send us a message below.
+              Questions, feedback or support requests? Use the form below to reach the 7A Satta team. We aim to respond to legitimate inquiries within 48 hours.
             </p>
             <form className="form" onSubmit={handleSubmit}>
               <div className="rows">

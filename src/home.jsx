@@ -46,7 +46,7 @@ const Home = () => {
     if (!selectedGame) return;
     const gameSlug = selectedGame.toLowerCase().replace(/\s+/g, "-");
     const year = new Date().getFullYear();
-    navigate(`/chart-${year}/${gameSlug}-satta-results`);
+    navigate(`/chart-${year}/${gameSlug}-satta-king-result`);
   };   
 
 const UpcomingResults = ({ loadingInitial }) => {

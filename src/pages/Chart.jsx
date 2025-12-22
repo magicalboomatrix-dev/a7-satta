@@ -54,7 +54,7 @@ const Chart = () => {
             <Link
               key={game._id}
               className="single-pill"
-              to={`/chart-${year}/${slug}-satta-results`}
+              to={`/chart-${year}/${slug}-satta-king-result`}
             >
               {game.name}
             </Link>

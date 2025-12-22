@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/charts" element={<Chart />} />
-        <Route path="/yearly-chart/satta-king-results" element={<Chart />} />
+        <Route path="/yearly-chart/satta-king-result" element={<Chart />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/privacy-policy" element={<Privacypolicy />} />
